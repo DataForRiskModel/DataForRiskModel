@@ -1,4 +1,4 @@
-exp1_1~exp3_3 are the artificial data with matrix $Y$ (without the preprocessing of multiplying $\lambda$) and matrix $C_1$ (dtype=numpy.float64), which is the output of numpy.tofile():
+exp1_1~exp3_3 are the artificial data with matrix $Y$ (without the preprocessing of multiplying $\lambda$) and matrix $C_1$ (dtype=numpy.float64), which is the output of numpy.tofile(), (when loaded by numpy.fromfile(), we should reshape the vector to a matrix):
 
 ​	exp1_1 ($\delta=5$) and exp1_2 ($\delta=10$) are the data for the first experiment;
 
